@@ -1,0 +1,7 @@
+C:\Users\memory\Desktop\C#\Homework\Exercise3\bin\Debug\Exercise3.exe.config
+C:\Users\memory\Desktop\C#\Homework\Exercise3\bin\Debug\Exercise3.exe
+C:\Users\memory\Desktop\C#\Homework\Exercise3\bin\Debug\Exercise3.pdb
+C:\Users\memory\Desktop\C#\Homework\Exercise3\obj\Debug\Exercise3.csprojAssemblyReference.cache
+C:\Users\memory\Desktop\C#\Homework\Exercise3\obj\Debug\Exercise3.csproj.CoreCompileInputs.cache
+C:\Users\memory\Desktop\C#\Homework\Exercise3\obj\Debug\Exercise3.exe
+C:\Users\memory\Desktop\C#\Homework\Exercise3\obj\Debug\Exercise3.pdb
