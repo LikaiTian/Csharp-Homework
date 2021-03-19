@@ -1,0 +1,7 @@
+C:\Users\memory\source\repos\Homework4\Exercise02\bin\Debug\Exercise02.exe.config
+C:\Users\memory\source\repos\Homework4\Exercise02\bin\Debug\Exercise02.exe
+C:\Users\memory\source\repos\Homework4\Exercise02\bin\Debug\Exercise02.pdb
+C:\Users\memory\source\repos\Homework4\Exercise02\obj\Debug\Exercise02.csproj.CoreCompileInputs.cache
+C:\Users\memory\source\repos\Homework4\Exercise02\obj\Debug\Exercise02.exe
+C:\Users\memory\source\repos\Homework4\Exercise02\obj\Debug\Exercise02.pdb
+C:\Users\memory\source\repos\Homework4\Exercise02\obj\Debug\Exercise02.csprojAssemblyReference.cache
