@@ -23,7 +23,7 @@ namespace Homework7
         double per2 = 0.7;
         private void button1_Click(object sender, EventArgs e)
         {
-            if (graphics == null) graphics = this.CreateGraphics();
+            if (graphics == null) graphics = panel1.CreateGraphics();
             th1 = Convert.ToInt32(th01.Text) * Math.PI / 180;
             th2 = Convert.ToInt32(th02.Text) * Math.PI / 180;
             per1 = Convert.ToDouble(per01.Text);
