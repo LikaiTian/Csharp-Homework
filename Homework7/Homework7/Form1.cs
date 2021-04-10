@@ -24,13 +24,13 @@ namespace Homework7
         private void button1_Click(object sender, EventArgs e)
         {
             if (graphics == null) graphics = panel1.CreateGraphics();
-            th1 = Convert.ToInt32(th01.Text) * Math.PI / 180;
-            th2 = Convert.ToInt32(th02.Text) * Math.PI / 180;
-            per1 = Convert.ToDouble(per01.Text);
-            per2 = Convert.ToDouble(per02.Text);
-            int n = Convert.ToInt32(N.Text);
-            int leng = Convert.ToInt32(Leng.Text);
-            Color c = Color.FromName(pen.Text);
+            th1 = (int)(Rlength.Value) * Math.PI / 180;
+            th2 = (int)(Llength.Value) * Math.PI / 180;
+            per1 = (double)Rd.Value;
+            per2 = (double)Ld.Value;
+            int n = (int)Depth.Value;
+            int leng = (int)Length.Value;
+            Color c = Color.FromName(comboBox.Text);
             DrawCayLeyTree(n, 200, 310, leng, -Math.PI / 2, c);
             
         }

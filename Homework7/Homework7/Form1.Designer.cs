@@ -37,15 +37,21 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.pen = new System.Windows.Forms.TextBox();
-            this.th02 = new System.Windows.Forms.TextBox();
-            this.th01 = new System.Windows.Forms.TextBox();
-            this.per02 = new System.Windows.Forms.TextBox();
-            this.per01 = new System.Windows.Forms.TextBox();
-            this.Leng = new System.Windows.Forms.TextBox();
-            this.N = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.Depth = new System.Windows.Forms.NumericUpDown();
+            this.Length = new System.Windows.Forms.NumericUpDown();
+            this.Rd = new System.Windows.Forms.NumericUpDown();
+            this.Ld = new System.Windows.Forms.NumericUpDown();
+            this.Rlength = new System.Windows.Forms.NumericUpDown();
+            this.Llength = new System.Windows.Forms.NumericUpDown();
+            this.comboBox = new System.Windows.Forms.ComboBox();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Depth)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Length)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Rd)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Ld)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Rlength)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Llength)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
@@ -61,6 +67,13 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.comboBox);
+            this.groupBox1.Controls.Add(this.Llength);
+            this.groupBox1.Controls.Add(this.Rlength);
+            this.groupBox1.Controls.Add(this.Ld);
+            this.groupBox1.Controls.Add(this.Rd);
+            this.groupBox1.Controls.Add(this.Length);
+            this.groupBox1.Controls.Add(this.Depth);
             this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.label5);
@@ -68,13 +81,6 @@
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Controls.Add(this.pen);
-            this.groupBox1.Controls.Add(this.th02);
-            this.groupBox1.Controls.Add(this.th01);
-            this.groupBox1.Controls.Add(this.per02);
-            this.groupBox1.Controls.Add(this.per01);
-            this.groupBox1.Controls.Add(this.Leng);
-            this.groupBox1.Controls.Add(this.N);
             this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Right;
             this.groupBox1.Location = new System.Drawing.Point(540, 0);
@@ -154,63 +160,6 @@
             this.label1.TabIndex = 7;
             this.label1.Text = "递归深度";
             // 
-            // pen
-            // 
-            this.pen.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pen.Location = new System.Drawing.Point(109, 355);
-            this.pen.Name = "pen";
-            this.pen.Size = new System.Drawing.Size(152, 25);
-            this.pen.TabIndex = 6;
-            // 
-            // th02
-            // 
-            this.th02.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.th02.Location = new System.Drawing.Point(109, 300);
-            this.th02.Name = "th02";
-            this.th02.Size = new System.Drawing.Size(152, 25);
-            this.th02.TabIndex = 5;
-            // 
-            // th01
-            // 
-            this.th01.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.th01.Location = new System.Drawing.Point(109, 245);
-            this.th01.Name = "th01";
-            this.th01.Size = new System.Drawing.Size(152, 25);
-            this.th01.TabIndex = 4;
-            // 
-            // per02
-            // 
-            this.per02.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.per02.Location = new System.Drawing.Point(109, 190);
-            this.per02.Name = "per02";
-            this.per02.Size = new System.Drawing.Size(152, 25);
-            this.per02.TabIndex = 3;
-            // 
-            // per01
-            // 
-            this.per01.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.per01.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.per01.Location = new System.Drawing.Point(109, 135);
-            this.per01.Name = "per01";
-            this.per01.Size = new System.Drawing.Size(152, 25);
-            this.per01.TabIndex = 2;
-            // 
-            // Leng
-            // 
-            this.Leng.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.Leng.Location = new System.Drawing.Point(109, 80);
-            this.Leng.Name = "Leng";
-            this.Leng.Size = new System.Drawing.Size(152, 25);
-            this.Leng.TabIndex = 2;
-            // 
-            // N
-            // 
-            this.N.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.N.Location = new System.Drawing.Point(109, 25);
-            this.N.Name = "N";
-            this.N.Size = new System.Drawing.Size(152, 25);
-            this.N.TabIndex = 1;
-            // 
             // panel1
             // 
             this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -224,6 +173,153 @@
             this.panel1.Size = new System.Drawing.Size(525, 437);
             this.panel1.TabIndex = 2;
             // 
+            // Depth
+            // 
+            this.Depth.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.Depth.Location = new System.Drawing.Point(118, 33);
+            this.Depth.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.Depth.Name = "Depth";
+            this.Depth.Size = new System.Drawing.Size(120, 25);
+            this.Depth.TabIndex = 14;
+            this.Depth.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            // 
+            // Length
+            // 
+            this.Length.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.Length.Location = new System.Drawing.Point(118, 87);
+            this.Length.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.Length.Name = "Length";
+            this.Length.Size = new System.Drawing.Size(120, 25);
+            this.Length.TabIndex = 15;
+            this.Length.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            // 
+            // Rd
+            // 
+            this.Rd.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.Rd.DecimalPlaces = 1;
+            this.Rd.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            65536});
+            this.Rd.Location = new System.Drawing.Point(118, 141);
+            this.Rd.Maximum = new decimal(new int[] {
+            10,
+            0,
+            0,
+            65536});
+            this.Rd.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            65536});
+            this.Rd.Name = "Rd";
+            this.Rd.Size = new System.Drawing.Size(120, 25);
+            this.Rd.TabIndex = 16;
+            this.Rd.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            65536});
+            // 
+            // Ld
+            // 
+            this.Ld.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.Ld.DecimalPlaces = 1;
+            this.Ld.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            65536});
+            this.Ld.Location = new System.Drawing.Point(118, 195);
+            this.Ld.Maximum = new decimal(new int[] {
+            10,
+            0,
+            0,
+            65536});
+            this.Ld.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            65536});
+            this.Ld.Name = "Ld";
+            this.Ld.Size = new System.Drawing.Size(120, 25);
+            this.Ld.TabIndex = 17;
+            this.Ld.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            65536});
+            // 
+            // Rlength
+            // 
+            this.Rlength.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.Rlength.Location = new System.Drawing.Point(118, 249);
+            this.Rlength.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.Rlength.Name = "Rlength";
+            this.Rlength.Size = new System.Drawing.Size(120, 25);
+            this.Rlength.TabIndex = 18;
+            this.Rlength.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            // 
+            // Llength
+            // 
+            this.Llength.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.Llength.Location = new System.Drawing.Point(118, 303);
+            this.Llength.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.Llength.Name = "Llength";
+            this.Llength.Size = new System.Drawing.Size(120, 25);
+            this.Llength.TabIndex = 19;
+            this.Llength.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            // 
+            // comboBox
+            // 
+            this.comboBox.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.comboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox.FormattingEnabled = true;
+            this.comboBox.Items.AddRange(new object[] {
+            "Red",
+            "Blue",
+            "Black",
+            "Yellow",
+            "Pink",
+            "Green"});
+            this.comboBox.Location = new System.Drawing.Point(117, 359);
+            this.comboBox.Name = "comboBox";
+            this.comboBox.Size = new System.Drawing.Size(121, 23);
+            this.comboBox.TabIndex = 20;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
@@ -235,6 +331,12 @@
             this.Text = "Form1";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Depth)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Length)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Rd)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Ld)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Rlength)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Llength)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -244,9 +346,6 @@
 
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.TextBox Leng;
-        private System.Windows.Forms.TextBox N;
-        private System.Windows.Forms.TextBox per01;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
@@ -254,11 +353,14 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox pen;
-        private System.Windows.Forms.TextBox th02;
-        private System.Windows.Forms.TextBox th01;
-        private System.Windows.Forms.TextBox per02;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.NumericUpDown Rd;
+        private System.Windows.Forms.NumericUpDown Length;
+        private System.Windows.Forms.NumericUpDown Depth;
+        private System.Windows.Forms.ComboBox comboBox;
+        private System.Windows.Forms.NumericUpDown Llength;
+        private System.Windows.Forms.NumericUpDown Rlength;
+        private System.Windows.Forms.NumericUpDown Ld;
     }
 }
 
