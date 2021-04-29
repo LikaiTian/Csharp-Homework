@@ -1,0 +1,11 @@
+C:\Users\memory\source\repos\Homework8\Homework8\bin\Debug\Homework8.exe.config
+C:\Users\memory\source\repos\Homework8\Homework8\bin\Debug\Homework8.exe
+C:\Users\memory\source\repos\Homework8\Homework8\bin\Debug\Homework8.pdb
+C:\Users\memory\source\repos\Homework8\Homework8\obj\Debug\Homework8.csprojAssemblyReference.cache
+C:\Users\memory\source\repos\Homework8\Homework8\obj\Debug\Homework8.Properties.Resources.resources
+C:\Users\memory\source\repos\Homework8\Homework8\obj\Debug\Homework8.csproj.GenerateResource.cache
+C:\Users\memory\source\repos\Homework8\Homework8\obj\Debug\Homework8.csproj.CoreCompileInputs.cache
+C:\Users\memory\source\repos\Homework8\Homework8\obj\Debug\Homework8.exe
+C:\Users\memory\source\repos\Homework8\Homework8\obj\Debug\Homework8.pdb
+C:\Users\memory\source\repos\Homework8\Homework8\obj\Debug\Homework8.addOrder.resources
+C:\Users\memory\source\repos\Homework8\Homework8\obj\Debug\Homework8.Winform.resources
