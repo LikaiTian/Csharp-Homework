@@ -1,0 +1,10 @@
+D:\GitHub\taxi\Homework9\Homework9\Homework9\bin\Debug\Homework9.exe.config
+D:\GitHub\taxi\Homework9\Homework9\Homework9\bin\Debug\Homework9.exe
+D:\GitHub\taxi\Homework9\Homework9\Homework9\bin\Debug\Homework9.pdb
+D:\GitHub\taxi\Homework9\Homework9\Homework9\obj\Debug\Homework9.csprojAssemblyReference.cache
+D:\GitHub\taxi\Homework9\Homework9\Homework9\obj\Debug\Homework9.Form1.resources
+D:\GitHub\taxi\Homework9\Homework9\Homework9\obj\Debug\Homework9.Properties.Resources.resources
+D:\GitHub\taxi\Homework9\Homework9\Homework9\obj\Debug\Homework9.csproj.GenerateResource.cache
+D:\GitHub\taxi\Homework9\Homework9\Homework9\obj\Debug\Homework9.csproj.CoreCompileInputs.cache
+D:\GitHub\taxi\Homework9\Homework9\Homework9\obj\Debug\Homework9.exe
+D:\GitHub\taxi\Homework9\Homework9\Homework9\obj\Debug\Homework9.pdb

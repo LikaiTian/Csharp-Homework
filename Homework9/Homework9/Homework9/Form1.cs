@@ -24,7 +24,7 @@ namespace Homework9
         }
         private void Crawler_CrawlerStopped(SimpleCrawler obj)
         {
-            Action action = () => lblInfo.Text = "爬虫已停止";
+            Action action = () => label1.Text = "爬虫已停止";
             if (this.InvokeRequired)
             {
                 this.Invoke(action);
