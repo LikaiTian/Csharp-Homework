@@ -1,0 +1,580 @@
+﻿ 
+<!DOCTYPE html>
+ 
+<html lang="zh-cn"><head><meta charset="utf-8" /><title>常见问题_360导航</title><meta name="description" content="介绍360导航的信息,提供申请和合作的链接" /><meta name="keywords" content="360安全网址,上网导航,网址大全,网站之家,关于我们,说明,声明,联系,合作" /><link rel="stylesheet" href="//s4.ssl.qhimg.com/static/0ab8478e00a8eecf.css" /><link rel="stylesheet" href="//s3.ssl.qhimg.com/static/0b25dec88895e4c9.css" /><!-- 用户样式 -->
+<link rel='stylesheet' href='//s2.ssl.qhimg.com/static/9b03033369d88e84.css' />
+
+<link rel='stylesheet' href='//s3.ssl.qhimg.com/static/58adafc4907e6095,ff046955fccf8032.css' />
+
+<base target="_blank"/></head><body class="p-question"><div id="hd">
+	<!-- 顶部迷你导航模块 -->
+    	<div id="mininav" class="gmodule">
+		<div class="mininav-bd">
+			<ul>
+				<li><a href="https://hao.360.com/" class="ico-backhome">返回首页</a></li>
+				<li><a onclick="try{ window.external.AddFavorite('http://hao.360.cn/','360安全网址'); } catch(e){ (window.sidebar)?window.sidebar.addPanel('360安全网址','http://hao.360.cn/',''):alert('请使用按键 Ctrl+d，收藏360安全网址'); }">收藏</a></li>
+				<li><a href="https://feedback.hao.360.cn/">反馈</a></li>
+			</ul>
+		</div>
+	</div>	<!-- 主头部模块 -->
+	<div id="mashead">
+		<div class="mashead-top">
+			<div class="mashead-hd">
+				<a href="https://hao.360.com" target="_self">
+					<img style="height: 36px;width: 226px;" src="//hao7.qhimg.com/t01fff87687140dc1bb.png" srcset="//hao8.qhimg.com/t01246636091f2c75fd.png" alt="360导航">
+				</a>
+			</div>
+
+						<div class="mashead-bd single"><!-- single 或者 multiple 用于是否显示tabs -->
+			                        
+    <div class="search-form">
+    <form id="search" target="_blank" method="get" action="https://www.so.com/s" class="gclearfix">
+        <div class="ipt-searcharea">
+            <input id="search-kw" class="ipt-search" type="text" x-webkit-speech="x-webkit-speech" autocomplete="off" name="q" />
+        </div>
+        <button id="search-btn" class="btn-search" type="submit">搜索</button>
+        <span id="hide-input">
+                                                            <input type="hidden" name="client" value="aff-360daohang"/>
+                                                            <input type="hidden" name="hl" value="zh-CN"/>
+                                                            <input type="hidden" name="ie" value="utf-8"/>
+                                                            <input type="hidden" name="newwindow" value="1"/>
+                                </span>
+    </form>
+    </div>
+			</div>
+		</div>
+		<div class="mashead-bottom">
+			<div class="mashead-ft">
+				<div class="sub-channel">
+					<a href="https://yule.360.com/">娱乐</a>
+					<span class="divider">|</span>
+					<a href="https://g.360.cn/">游戏</a>
+					<span class="divider">|</span>
+					<a href="https://junshi.hao.360.cn/">军事</a>
+					<span class="divider">|</span>
+					<a href="https://sports.hao.360.cn/">体育</a>
+					<span class="divider">|</span>
+					<a href="https://qiche.hao.360.cn/">汽车</a>
+					<span class="divider">|</span>
+					<a href="https://licai.360.cn/">财经</a>
+					<span class="divider">|</span>
+					<a href="https://shenghuo.hao.360.cn/">生活</a>
+				</div>
+			</div>
+		</div>
+		<div class="mashead-bread">
+			<a href="//hao.360.com" target="_blank"><span class="index">首页</span></a>
+			<span class="item">> 常见问题</span>
+		</div>
+	</div>
+</div>
+<div id="bd">
+	<div class="container">
+		<div class="left">
+			<!-- 导航模块 -->
+			<div id="subnav">
+				<ul>
+					<li class="aboutus"><h2><a target="_self" href="about.html">· 关于360导航</a></h2></li>
+					<li class="cooperation"><h2><a target="_self" href="mkt.html">· 广告合作</a></h2></li>
+					<li class="question active"><h2><a target="_self" href="question.html">· 常见问题</a></h2></li>
+					<li class="feedback"><h2><a target="_self" href="https://feedback.hao.360.cn/">· 问题反馈</a></h2></li>
+					<li class="repair"><h2><a target="_self" href="iexiufu.html">· 主页修复</a></h2></li>
+					<li class="copy"><h2><a target="_self" href="copyright.html">· 版权声明</a></h2></li>
+				</ul>
+			</div>
+		</div>
+		<div class="right">
+			<!-- 常见问题模块 -->
+			<div class="aboutus-hd">
+				<img class="title-icon" src="//hao2.qhimg.com/t013bd008b14274585c.jpg" srcset="//hao5.qhimg.com/t01e7b22c052753eddd.jpg 2x"/>
+				常见问题
+				<input type="text" id="question-search-bar" class="search-bar" placeholder="请简单描述您的问题"/ onkeyup="if(event.keyCode==13){window.location.href=window.location.origin+'/question.html?kw='+this.value}">
+				<img class="search-icon" src="https://hao7.qhimg.com/t0142af353391aa91d5.png" srcset="https://hao8.qhimg.com/t01fcdb63b5e2b623d9.png" onclick="window.location.href=window.location.origin+'/question.html?kw='+document.getElementById('question-search-bar').value">
+			</div>
+			<div class="question-bd">
+				<ol id="question-ol">
+				</ol>
+			</div>
+		</div>
+	</div>
+</div>
+<script>
+	!function (window) {
+
+	'use strict';
+
+	var document = window.document;
+	var ajaxSettings = {
+		url: '',
+		type: 'GET',
+		dataType: 'text', // text, html, json or xml
+		async: true,
+		cache: true,
+		data: null,
+		contentType: 'application/x-www-form-urlencoded',
+		success: null,
+		error: null,
+		complete: null,
+		accepts: {
+			text: 'text/plain',
+			html: 'text/html',
+			xml: 'application/xml, text/xml',
+			json: 'application/json, text/javascript'
+		}
+	};
+
+	/**
+	 * Ajax call helper
+	 * @private
+	 * @param {String} url
+	 * @param {String} type
+	 * @param {Object} [data]
+	 * @param {Function} [success]
+	 * @returns {\XMLHttpRequest}
+	 */
+	var call = function (url, type, data, success) {
+		if (isFunction(data)) {
+			success = data;
+			data = null;
+		}
+
+		return simpleAjax({
+			url: url,
+			type: type,
+			data: data,
+			success: success
+		});
+	};
+
+	/**
+	 * Parse JSON string
+	 * @private
+	 * @param {String} data
+	 * @return {Object} JSON object
+	 */
+	var parseJSON = function (data) {
+		if (typeof data !== 'string' || !data) {
+			return null;
+		}
+
+		return eval('('+ trim(data) +')');
+	};
+
+	/**
+	 * Create options combined with default settings
+	 * @private
+	 * @param {Object} options
+	 * @returns {Object}
+	 */
+	var createOptions = function (options) {
+		var opts = {};
+		var key;
+
+		for (key in ajaxSettings) {
+			if (typeof options[key] === 'undefined') {
+				opts[key] =  ajaxSettings[key];
+			} else {
+				opts[key] =  options[key];
+			}
+		}
+
+		return opts;
+	};
+
+	/**
+	 * Make querystring outof object or array of values
+	 * @private
+	 * @param {Object|Array} obj Keys/values
+	 * @return {String} The querystring
+	 */
+	var param = function (obj) {
+		var s = [];
+		var key;
+
+		for (key in obj) {
+			s.push(encodeURIComponent(key) + '=' + encodeURIComponent(obj[key]));
+		}
+
+		return s.join('&');
+	};
+
+	/**
+	 * @private
+	 * @param {String} url
+	 * @param {Object} params
+	 * @returns {String}
+	 */
+	var addToQueryString = function (url, params) {
+		var str = param(params);
+		var newUrl = url + (url.indexOf('?') > -1 ? '&' : '?') + str;
+		return newUrl;
+	};
+
+	/**
+	 * Trim spaces
+	 * @private
+	 * @param {String} str
+	 * @return {String}
+	 */
+	var trim = function (str) {
+		return str.replace(/^\s+/, '').replace(/\s+$/, '');
+	};
+
+	/**
+	 * Check if argument is function
+	 * @private
+	 * @param {Mixed} obj
+	 * @return {Boolean}
+	 */
+	var isFunction = function (obj) {
+		return Object.prototype.toString.call(obj) === '[object Function]';
+	};
+
+
+	/**
+	 * @namespace simpleAjax
+	 *
+	 * @public
+	 * @param {Object} [options] Overwrite the default settings (see ajaxSettings)
+	 * @return {\XMLHttpRequest}
+	 */
+	var simpleAjax = function (options) {
+		var xhr = new XMLHttpRequest();
+		var opts = createOptions(options);
+		var url = opts.url;
+		var sendData = opts.data;
+
+		var readyStateChange = function () {
+			var status = xhr.status;
+			var data;
+
+			if (xhr.readyState !== 4){
+				return;
+			}
+
+			if (status >= 200 && status < 300 || status === 304) {
+				// get data
+				if (opts.dataType === 'xml') {
+					data = xhr.responseXML;
+				} else {
+					data = xhr.responseText;
+
+					if (opts.dataType === 'json') {
+						data = parseJSON(data);
+					}
+				}
+
+				// on success
+				if (isFunction(opts.success)) {
+					opts.success.call(opts, data, status, xhr);
+				}
+			} else {
+				// on error
+				if (isFunction(opts.error)) {
+					opts.error.call(opts, xhr, status);
+				}
+			}
+
+			// on complete
+			if (isFunction(opts.complete)) {
+				opts.complete.call(opts, xhr, status);
+			}
+		};
+
+		// prepare options
+		if (!opts.cache) {
+			url = addToQueryString(url, { noAjaxCache: (new Date()).getTime() });
+		}
+
+		if (sendData) {
+			if (opts.type === 'GET') {
+				url = addToQueryString(url, sendData);
+				sendData = null;
+			} else {
+				sendData = param(sendData);
+			}
+		}
+
+		// set request
+		xhr.open(opts.type, url, opts.async);
+		xhr.setRequestHeader('Content-type', opts.contentType);
+
+		if (opts.dataType && opts.accepts[opts.dataType]) {
+			xhr.setRequestHeader('Accept', opts.accepts[opts.dataType]);
+		}
+
+		if (opts.async) {
+			xhr.onreadystatechange = readyStateChange;
+			xhr.send(sendData);
+		} else {
+			xhr.send(sendData);
+			readyStateChange();
+		}
+
+		return xhr;
+	};
+
+
+	/**
+	 * Ajax GET request
+	 * @public
+	 * @param {String} url
+	 * @param {String|Object} [data] Containing GET values
+	 * @param {Function} [success] Callback when request was succesfull
+	 * @return {\XMLHttpRequest}
+	 */
+	simpleAjax.get = function (url, data, success) {
+		return call(url, 'GET', data, success);
+	};
+
+	/**
+	 * Ajax POST request
+	 * @public
+	 * @param {String} url
+	 * @param {String|Object} [data] Containing POST values
+	 * @param {Function} [success] Callback when request was succesfull
+	 * @return {\XMLHttpRequest}
+	 */
+	simpleAjax.post = function (url, data, success) {
+		return call(url, 'POST', data, success);
+	};
+
+	/**
+	 * Set content loaded by an ajax call
+	 * @public
+	 * @param {DOMElement|String} el Can contain an element or the id of the element
+	 * @param {String} url The url of the ajax call (include GET vars in querystring)
+	 * @param {String} [data] The POST data, when set method will be set to POST
+	 * @param {Function} [complete] Callback when loading is completed
+	 * @return {\XMLHttpRequest}
+	 */
+	simpleAjax.load = function (el, url, data, complete) {
+		if (typeof el === 'string') {
+			el = document.getElementById(el);
+		}
+
+		return simpleAjax({
+			url: url,
+			type: data ? 'POST' : 'GET',
+			data: data || null,
+			complete: complete || null,
+			success: function (html) {
+				try {
+					el.innerHTML = html;
+				} catch (e) {
+					var ph = document.createElement('div');
+					var x, max;
+
+					ph.innerHTML = html;
+
+					// empty element content
+					while (el.firstChild) {
+						el.removeChild(el.firstChild);
+					}
+
+					// set new html content
+					for (x = 0, max = ph.childNodes.length; x < max; x++) {
+						el.appendChild(ph.childNodes[x]);
+					}
+				}
+			}
+		});
+	};
+
+	// make global
+	window.simpleAjax = simpleAjax;
+
+	}(window);
+	
+	(function(){
+		var limit = 100;
+		var productid = 375;
+		
+		if (window.location.search) {
+			var key = window.location.search.split('kw=')[1] && window.location.search.split('kw=')[1].split('&')[0];
+			searchFunc(key);
+			document.getElementById('question-search-bar').value = decodeURIComponent(key);
+		} else {
+			listAll();
+		}
+
+		function listAll() {
+			simpleAjax({
+				url: 'https://faqapi.bbs.360.cn/api/question/allList?productid='+productid+'&page=1&limit=' + limit,
+				type: 'GET',
+				success: function(data) {
+					waitOn(computedQuestions, data);
+				}
+			});
+		}
+
+		function searchFunc(keyword) {
+			if (keyword) {
+				simpleAjax({
+					url: 'https://faqapi.bbs.360.cn/api/search/question?page=1&limit='+limit+'&productid='+productid+'&kw='+keyword,
+					method: 'GET',
+					success: function(data) {
+						waitOn(computedQuestions, data);
+					}
+				});
+			} else {
+				listAll();
+			}
+		}
+
+		function computedQuestions(data) {
+			var res_data = JSON.parse(data);
+			var suggest_template = '<div class="question-feedback"><span class="title">以上信息是否解决了您的问题：</span><div class="button" id="success-button">是</div><div class="button" id="fail-button">否</div><span class="suggest-feedback" id="success-feedback">感谢您的反馈～</span><span class="suggest-feedback" id="fail-feedback">您可以进行<a class="jump" href="//feedback.hao.360.cn">「 问题反馈 」</a>，我们会在24小时内解决您的问题～</span></div>';
+			if (res_data && res_data.errno === 0) {
+				var list = res_data.data.list;
+				if (list.length === 0) {
+					document.getElementById('question-ol').innerHTML = '暂无数据。';
+					return;
+				}
+				var template = '';
+				for (var i = 0, l = list.length; i<l; i++) {
+					var current = list[i];
+					template += '<li class="question-li" data-id="'+current.id+'" data-show="0"><span class="can-click">'+current.title+'</span><img class="question-icon can-click" src="//hao4.qhimg.com/t010ef673e5c1d4e900.jpg"/><p class="content"></p></li>';
+				}
+				document.getElementById('question-ol').innerHTML = template;
+
+				W('#question-ol').delegate('.question-feedback .button', 'click', function(event) {
+					var target = W(event.target.parentNode);
+					if (!target.getAttr('data-isdot')) {
+						target.setAttr('data-isdot', 1);
+						var ids = event.target.id.split('-')[0] + '-feedback';
+						var spans = target[0].getElementsByTagName('span');
+						var btns = target[0].getElementsByTagName('div');
+						simpleAjax({
+							url: 'https://faqapi.bbs.360.cn/api/question/ratings?questionid='+W(event.target.parentNode.parentNode.parentNode).getAttr('data-id')+'&verdict='+(ids==='success-feedback'?'1':'0'),
+							method: 'GET'
+						});
+						W(event.target).addClass('active');
+						for (var i = 0, l = spans.length; i<l ; i++){
+							if (spans[i].id === ids) {
+								W(spans[i]).show();
+							}
+						}
+						for (var i = 0, l = btns.length; i<l; i++) {
+							if (btns[i].className.indexOf('active') === -1) {
+								W(btns[i]).addClass('disabled');
+							}
+						}
+					}
+				}).delegate('li .can-click', 'click', function(event) {
+					var target = W(event.target.parentNode);
+					var data_show = target.getAttr('data-show');
+					var id = target.getAttr('data-id');
+					var content_dom = target[0].getElementsByTagName('p')[0];
+					if (data_show === "1") {
+						content_dom.style.display = 'none';
+						target.setAttr('data-show', 0);
+						target.removeClass('active');
+					} else {
+						content_dom.style.display = 'block';
+						target.addClass('active');
+						if (content_dom.innerHTML === "") {
+							simpleAjax({
+								url: 'https://faqapi.bbs.360.cn/api/question/detailDot?questionid='+id+'&productid='+productid
+							})
+							simpleAjax({
+								url: 'https://faqapi.bbs.360.cn/api/question/detail?questionid=' + id,
+								type: 'GET',
+								success: function(data) {
+									var detail_data = JSON.parse(data);
+									if (detail_data && detail_data.errno === 0){
+										target[0].getElementsByTagName('p')[0].innerHTML = detail_data.data.answer + suggest_template;
+										target.setAttr('data-show', 1);
+									}
+								}
+							});
+						} else {
+							target.setAttr('data-show', 1);
+						}
+					}
+				});
+			} else {
+				document.getElementById('question-ol').innerHTML = '暂无数据，请刷新重试。'
+			}
+		}
+
+		function waitOn(fn, data) {
+			function re(con) {
+				if (!con()) {
+					setTimeout(function() {
+						re(con);
+					}, 100);
+				} else {
+					fn(data);
+				}
+			}
+			re(function() {
+					if (!window.W) {
+						return false;
+					} else {
+						return true;
+					}
+				}
+			);
+		}
+	})();
+	
+	
+</script>
+<div id="ft">
+	<div class="container">
+	  <ul class="bottom-nav">
+		<li class="about">
+		  <a target="_self" href="//hao.360.com/about.html">关于360导航</a>
+		</li>
+		<li class="hr">|</li>
+		<li class="cooperation">
+		  <a target="_self" href="//hao.360.com/mkt.html">广告合作</a>
+		</li>
+		<li class="hr">|</li>
+		<li class="question">
+		  <a target="_self" href="//hao.360.com/question.html">常见问题</a>
+		</li>
+		<li class="hr">|</li>
+		<li class="feedback current">
+		  <a target="_self" href="//feedback.hao.360.cn/">问题反馈</a>
+		</li>
+		<li class="hr">|</li>
+		<li class="repair">
+		  <a target="_self" href="//hao.360.com/iexiufu.html">主页修复</a>
+		</li>
+		<li class="hr">|</li>
+		<li class="copy">
+		  <a target="_self" href="//hao.360.com/copyright.html">版权声明</a>
+		</li>
+	  </ul>
+	  <div id="copyright-new">
+		<p class="copyright-new">Copyright © 360导航.
+		  All Rights Reserved.
+		  <a href="http://www.miibeian.gov.cn/">京ICP证080047号</a>
+		</p>
+	  </div>
+	</div>
+  </div>
+<script src="//s0.ssl.qhimg.com/lib/qwrap/1141.js" type="text/javascript"></script>
+<script src="//s4.ssl.qhimg.com/static/e6b0bd576a17a758.js#monitor"></script>
+
+<script>monitor.setUrl("http://hao.360.cn/question.html").setProject("hao360_erjiye").setId(['hd','nav','sitelink','subnav','about-us','ft']).getTrack();</script>
+
+			<!-- Begin comScore Tag -->
+			<script>
+			  var _comscore = _comscore || [];
+			  _comscore.push({ c1: "2", c2: "7129932" });
+			  (function() {
+				var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+				s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+				el.parentNode.insertBefore(s, el);
+			  })();
+			</script>
+			<noscript><img src="//b.scorecardresearch.com/p?c1=2&c2=7129932&cv=2.0&cj=1" /></noscript>
+			<!-- End comScore Tag -->
+		<script>
+            var monitorZodiac = new Monitor();
+            monitorZodiac.setUrl("http://hao.360.cn/zodiacall").getTrack();  
+            monitorZodiac.getClickAndKeydown();      
+        </script></body></html><!-- File To Static Is Ok --><!-- This Page was created in 2021-05-07 10:06:01-->

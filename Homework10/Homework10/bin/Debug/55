@@ -1,0 +1,196 @@
+﻿ 
+<!DOCTYPE html>
+ 
+<html lang="zh-cn"><head><meta charset="utf-8" /><title>主页修复_360导航</title><meta name="description" content="最全面的IE修复方法,手动修复IE并设置主页,使用360安全卫士修复IE,设置360安全网址为主页" /><meta name="keywords" content="360,上网导航,IE主页修复,360安全卫士,手动设置,修复主页" /><link rel="stylesheet" href="//s4.ssl.qhimg.com/static/0ab8478e00a8eecf.css" /><link rel="stylesheet" href="//s3.ssl.qhimg.com/static/0b25dec88895e4c9.css" /><!-- 用户样式 -->
+<link rel='stylesheet' href='//s2.ssl.qhimg.com/static/9b03033369d88e84.css' />
+
+<link rel='stylesheet' href='//s3.ssl.qhimg.com/static/58adafc4907e6095,ff046955fccf8032.css' />
+
+<base target="_blank"/></head><body class="p-repair">
+<div id="hd">
+	<!-- 顶部迷你导航模块 -->
+    	<div id="mininav" class="gmodule">
+		<div class="mininav-bd">
+			<ul>
+				<li><a href="https://hao.360.com/" class="ico-backhome">返回首页</a></li>
+				<li><a onclick="try{ window.external.AddFavorite('http://hao.360.cn/','360安全网址'); } catch(e){ (window.sidebar)?window.sidebar.addPanel('360安全网址','http://hao.360.cn/',''):alert('请使用按键 Ctrl+d，收藏360安全网址'); }">收藏</a></li>
+				<li><a href="https://feedback.hao.360.cn/">反馈</a></li>
+			</ul>
+		</div>
+	</div>	<!-- 主头部模块 -->
+	<div id="mashead">
+		<div class="mashead-top">
+			<div class="mashead-hd">
+				<a href="https://hao.360.com" target="_self">
+					<img style="height: 36px;width: 226px;" src="//hao7.qhimg.com/t01fff87687140dc1bb.png" srcset="https://hao8.qhimg.com/t01246636091f2c75fd.png" alt="360导航">
+				</a>
+			</div>
+
+						<div class="mashead-bd single"><!-- single 或者 multiple 用于是否显示tabs -->
+			                        
+    <div class="search-form">
+    <form id="search" target="_blank" method="get" action="https://www.so.com/s" class="gclearfix">
+        <div class="ipt-searcharea">
+            <input id="search-kw" class="ipt-search" type="text" x-webkit-speech="x-webkit-speech" autocomplete="off" name="q" />
+        </div>
+        <button id="search-btn" class="btn-search" type="submit">搜索</button>
+        <span id="hide-input">
+                                                            <input type="hidden" name="client" value="aff-360daohang"/>
+                                                            <input type="hidden" name="hl" value="zh-CN"/>
+                                                            <input type="hidden" name="ie" value="utf-8"/>
+                                                            <input type="hidden" name="newwindow" value="1"/>
+                                </span>
+    </form>
+    </div>
+			</div>
+		</div>
+		<div class="mashead-bottom">
+			<div class="mashead-ft">
+				<div class="sub-channel">
+					<a href="https://yule.360.com/">娱乐</a>
+					<span class="divider">|</span>
+					<a href="https://g.360.cn/">游戏</a>
+					<span class="divider">|</span>
+					<a href="https://junshi.hao.360.cn/">军事</a>
+					<span class="divider">|</span>
+					<a href="https://sports.hao.360.cn/">体育</a>
+					<span class="divider">|</span>
+					<a href="https://qiche.hao.360.cn/">汽车</a>
+					<span class="divider">|</span>
+					<a href="https://licai.360.cn/">财经</a>
+					<span class="divider">|</span>
+					<a href="https://shenghuo.hao.360.cn/">生活</a>
+				</div>
+			</div>
+		</div>
+		<div class="mashead-bread">
+			<a href="//hao.360.com" target="_blank"><span class="index">首页</span></a>
+			<span class="item">> 主页修复</span>
+		</div>
+	</div>
+</div>
+<div id="bd">
+	<div class="container">
+		<div class="left">
+			<!-- 导航模块 -->
+			<div id="subnav">
+				<ul>
+					<li class="aboutus"><h2><a target="_self" href="about.html">· 关于360导航</a></h2></li>
+					<li class="cooperation"><h2><a target="_self" href="mkt.html">· 广告合作</a></h2></li>
+					<li class="question"><h2><a target="_self" href="question.html">· 常见问题</a></h2></li>
+					<li class="feedback"><h2><a target="_self" href="https://feedback.hao.360.cn/">· 问题反馈</a></h2></li>
+					<li class="repair active"><h2><a target="_self" href="iexiufu.html">· 主页修复</a></h2></li>
+					<li class="copy"><h2><a target="_self" href="copyright.html">· 版权声明</a></h2></li>
+				</ul>
+			</div>
+		</div>
+		<div class="right">
+		<!-- 主页修复模块 -->
+			<div id="repair" class="gmodule">
+				<div class="aboutus-hd">
+					<img class="title-icon" src="//hao2.qhimg.com/t01408288ffc72ee5ec.jpg" srcset="//hao1.qhimg.com/t01f13b4e7823edf73f.jpg 2x"/>
+					主页修复
+					<input type="text" id="question-search-bar" class="search-bar" placeholder="请简单描述您的问题"/ onkeyup="if(event.keyCode==13){window.location.href=window.location.origin+'/question.html?kw='+this.value}">
+					<img class="search-icon" src="https://hao7.qhimg.com/t0142af353391aa91d5.png" srcset="https://hao8.qhimg.com/t01fcdb63b5e2b623d9.png" onclick="window.location.href=window.location.origin+'/question.html?kw='+document.getElementById('question-search-bar').value">
+				</div>
+				<div class="repair-bd">
+					<ol class="repairlist">
+						<li class="li-list">
+							<h2 class="subtit" style="font-size:14px;">1. 360导航主页被恶意网站篡改，怎么办？</h2>
+							<ul>
+								<li class="subli">（1）使用360安全卫士锁定您的主页&nbsp;<span class="list clearfix m-b-15">
+											一键安装
+												<a href="https://down.360safe.com/inst.exe" class="pic">
+													<div class="sub-button">
+														360安全卫士
+													</div>
+												</a>
+										</span>
+								</li>
+								<li class="subli">（2）使用360浏览器保护您的主页&nbsp;<span class="list clearfix m-b-15">
+											一键安装
+												<a href="http://down.360safe.com/se/cdnse.exe" class="pic" >
+													<div class="sub-button">
+														360安全浏览器
+													</div>
+												</a>
+										</span>
+								</li>
+							</ul>
+
+						</li>
+						<li class="li-list">
+							<h3 class="subtit" style="font-size:14px;">2. 常用浏览器如何设置360导航为主页</h3>
+							<a href="//hao.360.com/sub/sethomepage.html#se360" class="browser" ><img src="//hao5.qhimg.com/t01fcc1c580acee5819.jpg"  class="pic" />&nbsp;360安全浏览器</a>
+							<a href="//hao.360.com/sub/sethomepage.html#ee360" class="browser"><img src="//hao1.qhimg.com/t011164030938b00d44.jpg" class="pic" />&nbsp;360极速浏览器</a>
+							<a href="//hao.360.com/sub/sethomepage.html#ie" class="browser"><img src="//hao5.qhimg.com/t0157a378cbbc83cc69.jpg"  class="pic" />&nbsp;IE浏览器</a>
+							<a href="//hao.360.com/sub/sethomepage.html#chrome" class="browser"><img src="//hao2.qhimg.com/t0169bd9ea91d300b2d.jpg" class="pic" />&nbsp;谷歌浏览器</a>
+							<a href="//hao.360.com/sub/sethomepage.html#firefox" class="browser"><img src="//hao3.qhimg.com/t016eb6d1b8fd12e221.jpg" class="pic" />&nbsp;火狐浏览器</a>
+							<a href="//hao.360.com/sub/sethomepage.html#sougou" class="browser"><img src="//hao1.qhimg.com/t01e96c0b580539495a.jpg"  class="pic" />&nbsp;搜狗浏览器</a>
+							<a href="//hao.360.com/sub/sethomepage.html#aoyou" class="browser"><img src="//hao2.qhimg.com/t0143add1d5080b08f6.jpg"  class="pic" />&nbsp;傲游浏览器</a>
+							<a href="//hao.360.com/sub/sethomepage.html#theworld" class="browser"><img src="//hao6.qhimg.com/t01cba06163d7f98e74.jpg"  class="pic" />&nbsp;世界之窗</a>
+							<a href="//hao.360.com/sub/sethomepage.html#worldchrome" class="browser"><img src="//hao7.qhimg.com/t01b849cf16587880e5.jpg"  class="pic" />&nbsp;世界之窗极速版</a>
+						</li>
+					</ol>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+ <div id="ft">
+	<div class="container">
+	  <ul class="bottom-nav">
+		<li class="about">
+		  <a target="_self" href="//hao.360.com/about.html">关于360导航</a>
+		</li>
+		<li class="hr">|</li>
+		<li class="cooperation">
+		  <a target="_self" href="//hao.360.com/mkt.html">广告合作</a>
+		</li>
+		<li class="hr">|</li>
+		<li class="question">
+		  <a target="_self" href="//hao.360.com/question.html">常见问题</a>
+		</li>
+		<li class="hr">|</li>
+		<li class="feedback current">
+		  <a target="_self" href="//feedback.hao.360.cn/">问题反馈</a>
+		</li>
+		<li class="hr">|</li>
+		<li class="repair">
+		  <a target="_self" href="//hao.360.com/iexiufu.html">主页修复</a>
+		</li>
+		<li class="hr">|</li>
+		<li class="copy">
+		  <a target="_self" href="//hao.360.com/copyright.html">版权声明</a>
+		</li>
+	  </ul>
+	  <div id="copyright-new">
+		<p class="copyright-new">Copyright © 360导航.
+		  All Rights Reserved.
+		  <a href="http://www.miibeian.gov.cn/">京ICP证080047号</a>
+		</p>
+	  </div>
+	</div>
+  </div>
+<script src="//s0.ssl.qhimg.com/lib/qwrap/1141.js" type="text/javascript"></script>
+<script src="//s4.ssl.qhimg.com/static/e6b0bd576a17a758.js#monitor"></script>
+
+<script>monitor.setUrl("http://hao.360.cn/iexiufu.html").setProject("hao360_erjiye").setId(['hd','nav','sitelink','subnav','repair','ft']).getTrack();</script>
+
+			<!-- Begin comScore Tag -->
+			<script>
+			  var _comscore = _comscore || [];
+			  _comscore.push({ c1: "2", c2: "7129932" });
+			  (function() {
+				var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+				s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+				el.parentNode.insertBefore(s, el);
+			  })();
+			</script>
+			<noscript><img src="//b.scorecardresearch.com/p?c1=2&c2=7129932&cv=2.0&cj=1" /></noscript>
+			<!-- End comScore Tag -->
+		<script>
+            var monitorZodiac = new Monitor();
+            monitorZodiac.setUrl("http://hao.360.cn/zodiacall").getTrack();  
+            monitorZodiac.getClickAndKeydown();      
+        </script></body></html><!-- File To Static Is Ok --><!-- This Page was created in 2021-05-07 10:06:01-->
