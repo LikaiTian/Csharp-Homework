@@ -20,21 +20,8 @@ namespace Homework9
             InitializeComponent();
             dgvResult.DataSource = resultBindingSource;
             crawler.PageDownloaded += Crawler_PageDownloaded;
-            crawler.CrawlerStopped += Crawler_CrawlerStopped;
         }
-        private void Crawler_CrawlerStopped(SimpleCrawler obj)
-        {
-            Action action = () => label1.Text = "爬虫已停止";
-            if (this.InvokeRequired)
-            {
-                this.Invoke(action);
-            }
-            else
-            {
-                action();
-            }
-        }
-
+        
         private void Crawler_PageDownloaded(SimpleCrawler crawler, string url, string info)
         {
             var pageInfo = new { Index = resultBindingSource.Count + 1, URL = url, Status = info };
@@ -58,10 +45,7 @@ namespace Homework9
             string host = match.Groups["host"].Value;
             crawler.HostFilter = "^" + host + "$";
             crawler.FileFilter = "((.html?|.aspx|.jsp|.php)$|^[^.]+$)";
-            //crawler.Start();
             new Thread(crawler.Start).Start();
-            //Task.Run(() => crawler.Start());
-            //lblInfo.Text = "爬虫已启动....";
         }
     }
 }

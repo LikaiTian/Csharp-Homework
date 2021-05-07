@@ -13,7 +13,6 @@ namespace Homework9
 {
     class SimpleCrawler
     {
-        public event Action<SimpleCrawler> CrawlerStopped;
         public event Action<SimpleCrawler, string, string> PageDownloaded;
         //待下载队列
         Queue<string> pending = new Queue<string>();
@@ -54,6 +53,7 @@ namespace Homework9
                     string html = DownLoad(url); // 下载
                     DownloadedPages[url] = true;
                     PageDownloaded(this, url, "success");
+                    
                     Parse(html, url);//解析,并加入新的链接
                 }
                 catch (Exception ex)
@@ -61,7 +61,6 @@ namespace Homework9
                     PageDownloaded(this, url, "  Error:" + ex.Message);
                 }
             }
-            CrawlerStopped(this);
         }
 
         private string DownLoad(string url)
