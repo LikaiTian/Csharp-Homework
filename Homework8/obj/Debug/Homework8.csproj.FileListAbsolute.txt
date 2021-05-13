@@ -24,7 +24,6 @@ C:\Users\memory\Desktop\C#\Homework8\Homework8\bin\Debug\System.Buffers.dll
 C:\Users\memory\Desktop\C#\Homework8\Homework8\bin\Debug\System.Memory.dll
 C:\Users\memory\Desktop\C#\Homework8\Homework8\bin\Debug\System.Numerics.Vectors.dll
 C:\Users\memory\Desktop\C#\Homework8\Homework8\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
-C:\Users\memory\Desktop\C#\Homework8\Homework8\bin\Debug\Ubiety.Dns.Core.dll
 C:\Users\memory\Desktop\C#\Homework8\Homework8\bin\Debug\EntityFramework.xml
 C:\Users\memory\Desktop\C#\Homework8\Homework8\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\memory\Desktop\C#\Homework8\Homework8\bin\Debug\Google.Protobuf.pdb

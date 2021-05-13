@@ -13,20 +13,11 @@ namespace Homework8
     public partial class form1 : Form
     {
         OrderService orderService;
-        BindingSource bdsFields = new BindingSource();
-        public Action<AddOrder> ShowAddOrder { get; set; }
         public String Keyword { get; set; }
         public form1()
         {
             InitializeComponent();
             orderService = new OrderService();
-            Order order = new Order(1, new Customer("1", "li"), new List<OrderDetail>());
-            order.AddItem(new OrderDetail(1, new Goods("1", "apple", 100.0), 10));
-            order.AddItem(new OrderDetail(2, new Goods("2", "egg", 50.0), 61));
-            orderService.AddOrder(order);
-            Order order2 = new Order(2, new Customer("2", "zhang"), new List<OrderDetail>());
-            order2.AddItem(new OrderDetail(1, new Goods("2", "egg", 200.0), 10));
-            orderService.AddOrder(order2);
             txtQuery.DataBindings.Add("Text", this, "Keyword");
         }
 
@@ -36,18 +27,20 @@ namespace Homework8
             addOrder.ShowDialog();
             QueryAll();
         }
+
         public void QueryAll()
         {
+            //更新一下信息
             bindingSource1.DataSource = orderService.Orders;
             bindingSource1.ResetBindings(false);
         }
-
+        //编辑选中的订单
         private void btnModify_Click(object sender, EventArgs e)
         {
-            EditOrder();
+            Edit();
 
         }
-        private void EditOrder()
+        private void Edit()
         {
             Order order = bindingSource1.Current as Order;
             if (order == null)
@@ -55,11 +48,11 @@ namespace Homework8
                 MessageBox.Show("请选择一个订单进行修改");
                 return;
             }
-            AddOrder form2 = new AddOrder(order, true, orderService);
-            form2.ShowDialog();
+            AddOrder form = new AddOrder(order, true, orderService);
+            form.ShowDialog();
             QueryAll();
         }
-
+        //删除选中的订单
         private void btnDelete_Click(object sender, EventArgs e)
         {
             Order order = bindingSource1.Current as Order;
@@ -74,7 +67,6 @@ namespace Homework8
 
         private void btnExport_Click(object sender, EventArgs e)
         {
-            //SaveFileDialog saveFileDialog1 = new SaveFileDialog();
             DialogResult result= saveFileDialog1.ShowDialog();
             if (result.Equals(DialogResult.OK))
             {
@@ -82,10 +74,9 @@ namespace Homework8
                 orderService.Export(fileName);
             }
         }
-
+        //导入
         private void btnImport_Click(object sender, EventArgs e)
         {
-            //OpenFileDialog openFileDialog1 = new OpenFileDialog();
             DialogResult result = openFileDialog1.ShowDialog();
             if (result.Equals(DialogResult.OK))
             {
@@ -94,7 +85,7 @@ namespace Homework8
                 QueryAll();
             }
         }
-
+        //查询
         private void btnQuery_Click(object sender, EventArgs e)
         {
             switch (cmbQuery.SelectedIndex)
@@ -104,11 +95,7 @@ namespace Homework8
                     break;
                 case 1://根据ID查询
                     int.TryParse(Keyword, out int id);
-                    Order order = orderService.GetOrder(id);
-
-                    List<Order> result = new List<Order>();
-                    if (order != null) result.Add(order);
-                    bindingSource1.DataSource = result;
+                    bindingSource1.DataSource = orderService.GetOrder(id);
                     break;
                 case 2://根据客户查询
                     bindingSource1.DataSource = orderService.QueryOrdersByCustomerName(Keyword);
@@ -118,16 +105,10 @@ namespace Homework8
                     break;
                 case 4://根据总价格查询（大于某个总价）
                     float.TryParse(Keyword, out float totalPrice);
-                    bindingSource1.DataSource =
-                           orderService.QueryByTotalAmount(totalPrice);
+                    bindingSource1.DataSource = orderService.QueryByTotalAmount(totalPrice);
                     break;
             }
             bindingSource1.ResetBindings(false);
-        }
-
-        private void dgvOrder_DoubleClick(object sender, EventArgs e)
-        {
-            EditOrder();
         }
     }
 }

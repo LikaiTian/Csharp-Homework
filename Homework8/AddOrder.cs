@@ -12,29 +12,32 @@ namespace Homework8
 {
     public partial class AddOrder : Form
     {
+        
         private OrderService orderService;
         private bool editModel;
         public Order CurrentOrder { get; set; }
-        public Action<AddOrder> CloseEditFrom { get; set; }
         public AddOrder(Order order, bool model, OrderService orderService)
         {
             InitializeComponent();
+            //添加两个客户
             bindingSource1.Add(new Customer("1", "li"));
             bindingSource1.Add(new Customer("2", "zhang"));
-
+            this.cmbCustomer.DataSource = bindingSource1;
+            this.cmbCustomer.DisplayMember = "Name";
             this.orderService = orderService;
             this.editModel = model;
 
             //TODO 如果想实现不点保存只关窗口后订单不变化，需要把order深克隆给CurrentOrder
             this.CurrentOrder = order;
-            bindingSource4.DataSource = CurrentOrder;
+            bindingSource4.DataSource = CurrentOrder.Details;
             dgvDetails.DataSource = bindingSource4;
-            dgvDetails.DataMember = "Details";
             txtOrderID.Enabled = !model;
             if (!model)
             {
                 CurrentOrder.Customer = (Customer)bindingSource1.Current;
+                txtOrderID.DataBindings.Add("Text", CurrentOrder, "OrderId");
             }
+
         }
         //添加明细
         private void btnAdd_Click(object sender, EventArgs e)
@@ -82,10 +85,6 @@ namespace Homework8
         }
         //修改明细
         private void btnModify_Click(object sender, EventArgs e)
-        {
-            EditDetail();
-        }
-        private void EditDetail()
         {
             OrderDetail detail = bindingSource4.Current as OrderDetail;
             if (detail == null)

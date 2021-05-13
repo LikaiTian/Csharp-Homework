@@ -81,7 +81,6 @@
             // 
             // cmbCustomer
             // 
-            this.cmbCustomer.DataSource = this.bindingSource1;
             this.cmbCustomer.FormattingEnabled = true;
             this.cmbCustomer.Location = new System.Drawing.Point(196, 79);
             this.cmbCustomer.Name = "cmbCustomer";
