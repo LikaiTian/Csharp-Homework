@@ -1,68 +1,30 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-  <title type="text">博客园_拓荒者 dstang2000 http://www.dstang.com</title>
-  <subtitle type="text">KISS：Keeping things that work，Improve systems procedures styles，Start things of value，Stop things of no value </subtitle>
-  <id>uuid:c9c3b80e-1388-4023-8377-e2d6a6b8e780;id=62909</id>
-  <updated>2010-11-02T09:42:54Z</updated>
-  <author>
-    <name>拓荒者</name>
-    <uri>http://www.cnblogs.com/dstang2000/</uri>
-  </author>
-  <generator>feed.cnblogs.com</generator>
-  <entry>
-    <id>http://www.cnblogs.com/dstang2000/archive/2010/11/02/1867406.html</id>
-    <title type="text">实测:xml与json速度约差4倍 - 拓荒者</title>
-    <summary type="text">xml与json在javascript中解析并使用，速度大约相差4倍。（在IE中测试的结果）。其中主要不在于eval,与xml parse的时间差别，主要在于属性访问上的差别：xml中使用这样的方式 markers[i].getAttribute("info") 与json中使用这样的方式 var ...</summary>
-    <published>2010-11-02T09:43:00Z</published>
-    <updated>2010-11-02T09:43:00Z</updated>
-    <author>
-      <name>拓荒者</name>
-      <uri>http://www.cnblogs.com/dstang2000/</uri>
-    </author>
-    <link rel="alternate" href="http://www.cnblogs.com/dstang2000/archive/2010/11/02/1867406.html" />
-    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/dstang2000/archive/2010/11/02/1867406.html" />
-    <content type="html">【摘要】xml与json在javascript中解析并使用，速度大约相差4倍。（在IE中测试的结果）。其中主要不在于eval,与xml parse的时间差别，主要在于属性访问上的差别：xml中使用这样的方式 markers[i].getAttribute("info") 与json中使用这样的方式 var ... &lt;a href="http://www.cnblogs.com/dstang2000/archive/2010/11/02/1867406.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
-  </entry>
-  <entry>
-    <id>http://www.cnblogs.com/dstang2000/archive/2005/10/08/250188.html</id>
-    <title type="text">使用 NDoc 对 asp.net (Web) 项目产生文档的方法 - 拓荒者</title>
-    <summary type="text">NDoc是一个非常好的文档生成工具，现在还出了一些不错的中文版，如破宝的http://www.percyboy.com/w/ndoc/。但是由于NDoc现在的版本1.3 不支持Web项目，也不支持中文文件名，下面提出一个临时性的解决办法1. 解决不认识http://的Web项目的问题方法： （1）将...</summary>
-    <published>2005-10-08T04:12:00Z</published>
-    <updated>2005-10-08T04:12:00Z</updated>
-    <author>
-      <name>拓荒者</name>
-      <uri>http://www.cnblogs.com/dstang2000/</uri>
-    </author>
-    <link rel="alternate" href="http://www.cnblogs.com/dstang2000/archive/2005/10/08/250188.html" />
-    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/dstang2000/archive/2005/10/08/250188.html" />
-    <content type="html">【摘要】NDoc是一个非常好的文档生成工具，现在还出了一些不错的中文版，如破宝的http://www.percyboy.com/w/ndoc/。但是由于NDoc现在的版本1.3 不支持Web项目，也不支持中文文件名，下面提出一个临时性的解决办法1. 解决不认识http://的Web项目的问题方法： （1）将... &lt;a href="http://www.cnblogs.com/dstang2000/archive/2005/10/08/250188.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
-  </entry>
-  <entry>
-    <id>http://www.cnblogs.com/dstang2000/archive/2005/03/06/113761.html</id>
-    <title type="text">小工具RssInIE： 在IE中点右键，可以直接查看RSS - 拓荒者</title>
-    <summary type="text">最近RSS越来越流行，一般都需要专用的软件，有时候，在IE中看见的只是xml文件，很不方便。 我这里做了一个小工具，作为IE的插件，使得点右键“选Rss In IE”时，可以直接查看RSS。 程序的原理是使用xslt将RSS的xml转成为链接，放到窗口左边，而右边用一个iframe来放内容。 （由于...</summary>
-    <published>2005-03-05T16:56:00Z</published>
-    <updated>2005-03-05T16:56:00Z</updated>
-    <author>
-      <name>拓荒者</name>
-      <uri>http://www.cnblogs.com/dstang2000/</uri>
-    </author>
-    <link rel="alternate" href="http://www.cnblogs.com/dstang2000/archive/2005/03/06/113761.html" />
-    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/dstang2000/archive/2005/03/06/113761.html" />
-    <content type="html">【摘要】最近RSS越来越流行，一般都需要专用的软件，有时候，在IE中看见的只是xml文件，很不方便。 我这里做了一个小工具，作为IE的插件，使得点右键“选Rss In IE”时，可以直接查看RSS。 程序的原理是使用xslt将RSS的xml转成为链接，放到窗口左边，而右边用一个iframe来放内容。 （由于... &lt;a href="http://www.cnblogs.com/dstang2000/archive/2005/03/06/113761.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
-  </entry>
-  <entry>
-    <id>http://www.cnblogs.com/dstang2000/archive/2005/03/05/113513.html</id>
-    <title type="text">分不清正数负数，是我错了，还是VS.NET错了 - 拓荒者</title>
-    <summary type="text">三年前做的一个ASP.NET的项目（www.SurveyStar.net），一直运行好好的， 前几天，客户打电话来说，出了问题。 反复跟踪，发现是一个正数、负数的判断与ToString()的问题。 将问题简化后，源程序可表示为只有4句的程序，如下： class Test {   static v...</summary>
-    <published>2005-03-05T06:45:00Z</published>
-    <updated>2005-03-05T06:45:00Z</updated>
-    <author>
-      <name>拓荒者</name>
-      <uri>http://www.cnblogs.com/dstang2000/</uri>
-    </author>
-    <link rel="alternate" href="http://www.cnblogs.com/dstang2000/archive/2005/03/05/113513.html" />
-    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/dstang2000/archive/2005/03/05/113513.html" />
-    <content type="html">【摘要】三年前做的一个ASP.NET的项目（www.SurveyStar.net），一直运行好好的， 前几天，客户打电话来说，出了问题。 反复跟踪，发现是一个正数、负数的判断与ToString()的问题。 将问题简化后，源程序可表示为只有4句的程序，如下： class Test {   static v... &lt;a href="http://www.cnblogs.com/dstang2000/archive/2005/03/05/113513.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
-  </entry>
-</feed>
+﻿<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+  <meta charset="UTF-8">
+  <title>军事资讯_360导航上网主页</title>
+  <meta name="description" content="360导航--新一代安全上网导航，为用户提供门户、新闻、视频、游戏、小说、彩票等各种分类的优秀内容和网站入口，提供简单便捷的上网导航服务。安全上网，从360导航开始。">
+  <meta name="keywords" content="360导航,网址之家,网址导航,360安全网址,360网址,上网导航,网址">
+  <style type="text/css">html,body{height:100%;margin:0;padding:0}</style>
+  <style type="text/css">body{background:#FFF;color:#000;font:12px/1.5 arial,\5b8b\4f53,georgia,verdana,helvetica,sans-serif}html,body,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,pre,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0;table-layout:fixed}ul,ol,menu{list-style:none}fieldset,img{border:0}img,object,select,input,textarea,button{vertical-align:middle}article,aside,footer,header,section,nav,menu,figure,figcaption,hgroup,details{display:block}caption,th{text-align:left}h1,h2,h3,h4,h5,h6,input,textarea,select,address,caption,cite,code,dfn,em,i,b,strong,small,th,var,abbr{font-size:100%;font-style:normal}ins,s,u,del,a{text-decoration:none}a{color:#333}::selection,::-moz-selection{background-color:#333369;color:#FFF}q:before,q:after{content:''}.gclearfix:after,#guide:after,#hd:after,#bd:after,#ft:after,.hd:after,.bd:after,.ft:after,.pophd:after,.popbd:after,.popft:after,.gmodule:after{display:block;clear:both;visibility:hidden;height:0;content:''}.gclearfix,#guide,#hd,#bd,#ft,.hd,.bd,.ft,.pophd,.popbd,.popft,.gmodule{zoom:1}.gmodule{margin-top:10px}.container24,.container23,.container22,.container21,.container20,.container19,.container18{zoom:1;margin-right:auto;margin-left:auto}.container24{width:960px}.container23{width:920px}.container22{width:880px}.container21{width:840px}.container20{width:800px}.container19{width:760px}.container18{width:720px}.row{zoom:1;clear:both}.span1{width:30px}.span2{width:70px}.span3{width:110px}.span4{width:150px}.span5{width:190px}.span6{width:230px}.span7{width:270px}.span8{width:310px}.span9{width:350px}.span10{width:390px}.span11{width:430px}.span12{width:470px}.span13{width:510px}.span14{width:550px}.span15{width:590px}.span16{width:630px}.span17{width:670px}.span18{width:710px}.span19{width:750px}.span20{width:790px}.span21{width:830px}.span22{width:870px}.span23{width:910px}.span24{width:950px}.span1,.span2,.span3,.span4,.span5,.span6,.span7,.span8,.span9,.span10,.span11,.span12,.span13,.span14,.span15,.span16,.span17,.span18,.span19,.span20,.span21,.span22,.span23,.span24{display:inline;float:left;margin-right:5px;margin-left:5px}.container24:after,.container23:after,.container22:after,.container21:after,.container20:after,.container19:after,.container18:after,.row:after{display:block;clear:both;visibility:hidden;height:0;content:''}</style>
+  <style type="text/css">body{background:#f5f5f5}.top{height:40px;line-height:40px;background:#fbfbfb;border-bottom:1px solid #c9c9c9}.red{color:#e60012!important}.top-toolbar{float:right}.search-wrap{position:relative;width:1200px;margin:15px auto}.ac_wrap{background:#fff;color:#333;font-size:14px;margin-top:-1px;overflow-y:hidden;position:absolute;z-index:100;top:41px!important;box-shadow:0 2px 6px 0 rgba(0,0,0,0.1)}.ac_wrap_inner{border:1px solid #e2e2e2}.ac_bgIframe{position:absolute;top:0;left:0;z-index:0;width:100%;height:100%}.other-nav{width:1200px;margin:0 auto 20px;padding-bottom:20px;background:#fff;border:1px solid #c9c9c9}.main{width:1200px;margin:0 auto}.text-link-wrap{margin-bottom:10px}.gclearfix:after{display:block;clear:both;visibility:hidden;height:0;content:''}a:hover{color:#e60012;text-decoration:underline}.top-toolbar a{overflow:hidden;display:inline;position:relative;float:left;height:40px}.search-wrap img{float:left;margin-top:4px;margin-right:80px;width:192px;height:33px}.ac_wrap ul{margin:0;padding:0}.ac_wrap li{height:30px;line-height:30px;color:#333;list-style:none;padding:0 0 0 10px;cursor:pointer;position:relative;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.other-nav ul{margin-top:19px;float:left;width:181px;height:54px;overflow:hidden;margin-left:17px;border-right:1px solid #eee}.other-nav a{display:block;width:28px;height:16px;padding:3px 6px}.other-nav li{line-height:17px;overflow:hidden;margin-right:4px;margin-bottom:10px;float:left;font-size:14px;color:#333}.main h2{display:inline-block;_zoom:1;*display:inline;padding:20px 10px 11px;font-size:16px;color:#333;line-height:16px;border-bottom:3px solid #42ab22}.image-link-wrap ul{margin-right:4px;border-bottom:1px solid #f5f5f5;border-left:1px solid #f5f5f5}.image-link-wrap li{float:left;width:166px;height:60px;border-right:1px solid #f5f5f5;border-top:1px solid #f5f5f5}.image-link-wrap img{display:block;width:143px;height:40px;margin:10px 12px}.text-link-wrap ul{width:840px;padding:0;border-top:1px solid #f5f5f5}.ac_wrap li span{display:inline-block;vertical-align:middle}.ac_wrap li b{font-weight:700}.text-link-wrap ul li{width:125px;padding-left:15px;margin-top:20px;float:left;list-style:none;overflow:hidden;text-align:left;font-size:14px;line-height:14px;color:#333}.text-link-wrap ul li a{color:#333;text-decoration:none;white-space:nowrap}.top .top-bd{width:1200px;margin:0 auto}.top .top-nav,.top-toolbar .split{float:left}.top-toolbar .split{height:40px;margin:0 6px;padding:3px 5px 0 4px;line-height:32px;color:#ccc;font-size:14px;-webkit-text-size-adjust:none}.ac_wrap .ac_toolbar{display:none}.other-nav .wrap6{border-right:0}.main .content{float:left;width:840px;padding:0 19px 20px;border:1px solid #c9c9c9;background:#fff}.main .aside{float:right;width:300px}.aside .hot-24h{display:none;margin-bottom:20px}.aside .hot-24h,.aside .awesome-pics{padding:0 19px;background:#fff;border:1px solid #c9c9c9}.top .top-nav li{float:left;margin-right:35px}.ac_wrap li.hover,.ac_wrap li.selected{background-color:#f9f9f9}.other-nav .current a{background-color:#42ab22;color:#fff}.aside .hot-24h li{margin:20px 0}.aside .hot-24h p{float:left;width:135px;height:60px;font-size:0;overflow:hidden}.aside .hot-24h p span{font-size:12px;display:inline-block;vertical-align:middle}.text-link-wrap ul li a:hover{color:#e60012;text-decoration:underline}#search-btn{background-image:url(https://p1.ssl.qhimg.com/t01be1b91aaa6956546.png);overflow:hidden;width:100px;height:41px;text-align:center;font-size:16px;border:0;background-color:#e1e1e1;background-repeat:no-repeat;background-position:0 0;cursor:pointer;outline:none;text-decoration:none}#daily-hotwords{z-index:1;overflow:hidden;position:absolute;top:12px;right:150px;width:130px;height:20px;line-height:20px}#search-input input{margin-top:9px;padding:0 6px;width:458px;height:22px;line-height:22px;font-size:16px;font-family:arial;border:0;background:none;outline:0;-webkit-appearance:none}.search-wrap #search-input{display:inline;float:left;margin:0 4px 0 9px;position:relative;width:504px;height:39px;border-width:1px;border-style:solid;border-color:#9c9c9c;background:#fff;-moz-box-shadow:inset 1px 1px 1px #dedede;-webkit-box-shadow:inset 1px 1px 1px #dedede;box-shadow:inset 1px 1px 1px #dedede}#daily-hotwords .daily-hotwords-list{height:100%;overflow:hidden}.footer{margin-top:70px}.g-box{border-width:1px;border-style:solid}.unslider-arrow,.unslider-nav{display:none}.unslider{overflow:auto;margin:0;padding:0}.unslider-wrap,.unslider-fade{position:relative}.unslider-arrow,.js-ad-mediav-item a{cursor:pointer}.unslider-arrow{position:absolute;left:20px;z-index:2}.unslider-vertical>ul{height:100%}.unslider-vertical li{float:none;width:100%}.unslider li,.unslider ol,.unslider ul{list-style:none;margin:0;padding:0;border:none}.aside .awesome-pics{display:none}.js-ad-mediav-item .img-link{position:relative}.g-box .g-box-hd{padding:0 10px;height:30px;line-height:30px;font-size:14px;color:#333;border-bottom:1px solid #dcebf8;background-color:#eef7ff}.g-box .list{overflow:hidden;zoom:1;white-space:normal}.unslider-arrow.next{left:auto;right:20px}.aside .hot-24h img{display:block;width:100%;height:100%;object-fit:cover;-webkit-transition:all .3s ease-out;transition:all .3s ease-out}.aside .awesome-pics ul{margin-right:-20px;margin-bottom:30px}.aside .awesome-pics li,.g-box .list li,.unslider-wrap.unslider-carousel>li{float:left}.aside .awesome-pics li{width:120px;margin-top:20px;margin-right:20px}.g-box .list li{height:29px;line-height:29px}.unslider-fade .unslider-wrap li{position:absolute;left:0;top:0;right:0;z-index:8}.aside .hot-24h p i{height:100%;display:inline-block;vertical-align:middle}.aside .awesome-pics li img{display:inline-block;width:120px;height:80px;margin-bottom:10px;object-fit:cover;-webkit-transition:all .3s ease-out;transition:all .3s ease-out}.aside .awesome-pics li p,.aside .hot-24h p span a{overflow:hidden;text-overflow:ellipsis;-webkit-box-orient:vertical}.aside .awesome-pics li p{height:36px;display:-webkit-box;-webkit-line-clamp:2}.aside .hot-24h p span a{display:-webkit-box;-webkit-line-clamp:3;font-size:13px}.aside .hot-24h .img-link{display:inline-block;float:right;width:110px;height:60px;overflow:hidden}.aside .awesome-pics .img-link{display:inline-block;width:120px;height:80px;overflow:hidden}.aside .hot-24h img:hover,.aside .awesome-pics li img:hover{-webkit-transform:scale(1.05,1.05);transform:scale(1.05,1.05)}.js-ad-mediav-item .img-link em.ad{display:block;width:22px;height:12px;position:absolute;right:0;top:0;background:url(//hao4.qhimg.com/t0190b480876b384b6f.png) no-repeat}.unslider-fade .unslider-wrap li.unslider-active{z-index:10}#copyright{margin-top:0}#longlong-iframe{overflow:hidden}#pigeon-iframe{background:#fff}#copyright.g-box{border-width:1px 0 0;border-color:#7e7e7e;background-color:#919191}#copyright .copyright-bd{height:40px;line-height:40px;text-align:center;font-size:12px;color:#c2c2c2}#copyright a,#copyright .rights{padding:0 3px;color:#c2c2c2}#longlong-iframe .loading{padding-top:200px;height:600px;text-align:center;font-size:14px;color:#666}#copyright a:hover{color:#e60012;text-decoration:underline}#longlong-iframe .loading img{margin-right:10px}</style>
+  <base target="_blank"/><!--[if IE 6 ]></base><![endif]-->
+</head>
+<body>
+  <!-- header -->  
+  <!-- 页面正文 --> 
+<iframe src="https://mil.eastday.cn/360dh.html" width="100%" height="100%" name="pigeon-iframe" id="pigeon-iframe" allowtransparency="true" scrolling="yes" frameborder="no"></iframe>
+  <!-- footer -->
+  <!-- 公用脚本 -->
+  <script src="//s2.ssl.qhimg.com/lib/jquery/1102.js"></script>
+<script src="//s5.ssl.qhimg.com/static/7bcff438b888d7a6.js"></script>
+<script src="//s2.ssl.qhimg.com/static/6c7af56e5ff964dd.js"></script>
+<script type="text/javascript">(function(){if(!window.monitor)return;monitor.setProject("hao360_erjiye_website").setUrl((window.location.href+"").replace("360.com","360.cn").replace(/^https:/,"http:")).getTrack().getClickAndKeydown()})()</script>
+  <!-- 工具类 -->
+  <script type="text/javascript">(function(){window.Cookie={getRaw:function(e){var t=new RegExp("(^| )"+e+"=([^;]*)(;|$)"),n=t.exec(document.cookie);return n?n[2]||null:null},get:function(e){var t=window.Cookie.getRaw(e);return"string"==typeof t?(t=decodeURIComponent(t),t):null},setRaw:function(e,t,n){n=n||{};var r=n.expires;"number"==typeof n.expires&&(r=new Date,r.setTime(r.getTime()+n.expires)),document.cookie=e+"="+t+(n.path?"; path="+n.path:"")+(r?"; expires="+r.toGMTString():"")+(n.domain?"; domain="+n.domain:"")+(n.secure?"; secure":"")},set:function(e,t,n){window.Cookie.setRaw(e,encodeURIComponent(t),n)},remove:function(e,t){t=t||{},t.expires=new Date(0),window.Cookie.setRaw(e,"",t)}};var e={_getInfo:function(e){switch(e){case"mid":var t="";try{t=external.GetSpecialData(external.twGetSecurityID(window)).split(",")[3]}catch(n){}if(!t&&window.wdextcmd!==undefined)try{t=window.wdextcmd.GetMid()}catch(n){}if(!t&&window.external)try{external.GetSID!==undefined&&(t=external.GetMID(external.GetSID(window)))}catch(n){}return t;case"guid":var r=Cookie||window.Cookie,i=r.get("__guid")||"";return i;case"mvuid":var s=function(e){var t=1,n=0,r;if(e){t=0;for(r=e.length-1;r>=0;r--)n=e.charCodeAt(r),t=(t<<6&268435455)+n+(n<<14),n=t&266338304,t=n!=0?t^n>>21:t}return t},o=new Date-0,u=window.location.href,a=s(u),f=""+o+a+Math.random()+Math.random()+Math.random()+Math.random();return f=f.replace(/\./g,"").substring(0,32),f;default:return""}}};e.mid=e._getInfo("mid"),e.guid=e._getInfo("guid"),e.mvuid=e._getInfo("mvuid"),window.hao360=e})()</script>
+  <!-- index -->
+  <!-- 合作包版js -->
+  <script type="text/javascript" src="//s1.qhres2.com/!7bdba3a4/pigeon.js"></script>
+<script type="text/javascript">(function(){function e(e){var t=n.scrollTop(),i=n.height(),o=document.documentElement.scrollHeight,u=s.offset().top;Pigeon.report("scroll",{winheight:i,scrollTop:t,iframeOffsetTop:u}),t+i>=o-r&&(console.log("page2end"),Pigeon.report("page2end"))}function t(e,t){var n=null;return function(){var r=this,i=arguments;clearTimeout(n),n=setTimeout(function(){e.apply(r,i)},t)}}var n=$(window),r=300,i=0,s=$("#pigeon-iframe");Pigeon.receive("heightChange",function(e){var t=e.data,n=location.hash.replace("#!","");t&&$("#longlong-loading").hide(),t>i&&($("#longlong-iframe").height(t),s.attr("height",t),i=t)}),n.on("scroll",t(e,50))})()</script>
+</body>
+</html>

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -34,7 +35,6 @@ namespace Homework10
             crawler.HostFilter = "^" + host + "$";
             crawler.FileFilter = "((.html?|.aspx|.jsp|.php)$|^[^.]+$)";
             //new Thread(crawler.Start).Start();
-            
             Parallel.Invoke(new Action[]
             {
                 ()=>crawler.Start(),
@@ -54,8 +54,5 @@ namespace Homework10
                 action();
             }
         }
-        
-        
-
     }
 }

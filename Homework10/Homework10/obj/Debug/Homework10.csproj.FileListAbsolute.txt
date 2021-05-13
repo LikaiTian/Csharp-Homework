@@ -8,3 +8,13 @@ C:\Users\memory\Desktop\C#\Homework10\Homework10\obj\Debug\Homework10.csproj.Gen
 C:\Users\memory\Desktop\C#\Homework10\Homework10\obj\Debug\Homework10.csproj.CoreCompileInputs.cache
 C:\Users\memory\Desktop\C#\Homework10\Homework10\obj\Debug\Homework10.exe
 C:\Users\memory\Desktop\C#\Homework10\Homework10\obj\Debug\Homework10.pdb
+C:\Users\memory\Desktop\taxi\Homework10\Homework10\bin\Debug\Homework10.exe.config
+C:\Users\memory\Desktop\taxi\Homework10\Homework10\bin\Debug\Homework10.exe
+C:\Users\memory\Desktop\taxi\Homework10\Homework10\bin\Debug\Homework10.pdb
+C:\Users\memory\Desktop\taxi\Homework10\Homework10\obj\Debug\Homework10.csprojAssemblyReference.cache
+C:\Users\memory\Desktop\taxi\Homework10\Homework10\obj\Debug\Homework10.Form1.resources
+C:\Users\memory\Desktop\taxi\Homework10\Homework10\obj\Debug\Homework10.Properties.Resources.resources
+C:\Users\memory\Desktop\taxi\Homework10\Homework10\obj\Debug\Homework10.csproj.GenerateResource.cache
+C:\Users\memory\Desktop\taxi\Homework10\Homework10\obj\Debug\Homework10.csproj.CoreCompileInputs.cache
+C:\Users\memory\Desktop\taxi\Homework10\Homework10\obj\Debug\Homework10.exe
+C:\Users\memory\Desktop\taxi\Homework10\Homework10\obj\Debug\Homework10.pdb
