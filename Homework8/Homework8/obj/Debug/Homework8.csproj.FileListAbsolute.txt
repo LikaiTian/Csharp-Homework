@@ -9,7 +9,6 @@ C:\Users\memory\Desktop\C#\Homework8\Homework8\obj\Debug\Homework8.csproj.CoreCo
 C:\Users\memory\Desktop\C#\Homework8\Homework8\obj\Debug\Homework8.exe
 C:\Users\memory\Desktop\C#\Homework8\Homework8\obj\Debug\Homework8.pdb
 C:\Users\memory\Desktop\C#\Homework8\Homework8\obj\Debug\Homework8.csprojAssemblyReference.cache
-C:\Users\memory\Desktop\C#\Homework8\Homework8\obj\Debug\Homework8.FormDetailEdit.resources
 C:\Users\memory\Desktop\C#\Homework8\Homework8\bin\Debug\BouncyCastle.Crypto.dll
 C:\Users\memory\Desktop\C#\Homework8\Homework8\bin\Debug\EntityFramework.dll
 C:\Users\memory\Desktop\C#\Homework8\Homework8\bin\Debug\EntityFramework.SqlServer.dll
@@ -39,3 +38,13 @@ C:\Users\memory\Desktop\C#\Homework8\Homework8\bin\Debug\System.Memory.xml
 C:\Users\memory\Desktop\C#\Homework8\Homework8\bin\Debug\System.Numerics.Vectors.xml
 C:\Users\memory\Desktop\C#\Homework8\Homework8\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\memory\Desktop\C#\Homework8\Homework8\obj\Debug\Homework8.csproj.CopyComplete
+C:\Users\memory\Desktop\C#\Homework8\Homework8\obj\Debug\Homework8.GoodEdit.resources
+C:\Users\memory\Desktop\taxi\Homework8\Homework8\obj\Debug\Homework8.csprojAssemblyReference.cache
+C:\Users\memory\Desktop\taxi\Homework8\Homework8\obj\Debug\Homework8.AddOrder.resources
+C:\Users\memory\Desktop\taxi\Homework8\Homework8\obj\Debug\Homework8.form1.resources
+C:\Users\memory\Desktop\taxi\Homework8\Homework8\obj\Debug\Homework8.GoodEdit.resources
+C:\Users\memory\Desktop\taxi\Homework8\Homework8\obj\Debug\Homework8.Properties.Resources.resources
+C:\Users\memory\Desktop\taxi\Homework8\Homework8\obj\Debug\Homework8.csproj.GenerateResource.cache
+C:\Users\memory\Desktop\taxi\Homework8\Homework8\obj\Debug\Homework8.csproj.CoreCompileInputs.cache
+C:\Users\memory\Desktop\taxi\Homework8\Homework8\obj\Debug\Homework8.exe
+C:\Users\memory\Desktop\taxi\Homework8\Homework8\obj\Debug\Homework8.pdb

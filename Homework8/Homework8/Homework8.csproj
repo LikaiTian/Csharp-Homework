@@ -107,11 +107,11 @@
       <DependentUpon>AddOrder.cs</DependentUpon>
     </Compile>
     <Compile Include="Customer.cs" />
-    <Compile Include="FormDetailEdit.cs">
+    <Compile Include="GoodEdit.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormDetailEdit.Designer.cs">
-      <DependentUpon>FormDetailEdit.cs</DependentUpon>
+    <Compile Include="GoodEdit.Designer.cs">
+      <DependentUpon>GoodEdit.cs</DependentUpon>
     </Compile>
     <Compile Include="Goods.cs" />
     <Compile Include="Order.cs" />
@@ -132,8 +132,8 @@
     <EmbeddedResource Include="form1.resx">
       <DependentUpon>form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormDetailEdit.resx">
-      <DependentUpon>FormDetailEdit.cs</DependentUpon>
+    <EmbeddedResource Include="GoodEdit.resx">
+      <DependentUpon>GoodEdit.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

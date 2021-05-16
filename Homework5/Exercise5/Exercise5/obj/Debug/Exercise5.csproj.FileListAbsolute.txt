@@ -5,3 +5,10 @@ C:\Users\memory\Desktop\C#\Exercise5\Exercise5\obj\Debug\Exercise5.csprojAssembl
 C:\Users\memory\Desktop\C#\Exercise5\Exercise5\obj\Debug\Exercise5.csproj.CoreCompileInputs.cache
 C:\Users\memory\Desktop\C#\Exercise5\Exercise5\obj\Debug\Exercise5.exe
 C:\Users\memory\Desktop\C#\Exercise5\Exercise5\obj\Debug\Exercise5.pdb
+C:\Users\memory\Desktop\taxi\Homework5\Exercise5\Exercise5\bin\Debug\Exercise5.exe.config
+C:\Users\memory\Desktop\taxi\Homework5\Exercise5\Exercise5\bin\Debug\Exercise5.exe
+C:\Users\memory\Desktop\taxi\Homework5\Exercise5\Exercise5\bin\Debug\Exercise5.pdb
+C:\Users\memory\Desktop\taxi\Homework5\Exercise5\Exercise5\obj\Debug\Exercise5.csprojAssemblyReference.cache
+C:\Users\memory\Desktop\taxi\Homework5\Exercise5\Exercise5\obj\Debug\Exercise5.csproj.CoreCompileInputs.cache
+C:\Users\memory\Desktop\taxi\Homework5\Exercise5\Exercise5\obj\Debug\Exercise5.exe
+C:\Users\memory\Desktop\taxi\Homework5\Exercise5\Exercise5\obj\Debug\Exercise5.pdb

@@ -32,10 +32,10 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label3 = new System.Windows.Forms.Label();
             this.cmbCustomer = new System.Windows.Forms.ComboBox();
-            this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.txtOrderID = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.dgvDetails = new System.Windows.Forms.DataGridView();
             this.bindingSource4 = new System.Windows.Forms.BindingSource(this.components);
@@ -75,21 +75,20 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(45, 133);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(67, 15);
+            this.label3.Size = new System.Drawing.Size(0, 15);
             this.label3.TabIndex = 4;
-            this.label3.Text = "下单时间";
             // 
             // cmbCustomer
             // 
             this.cmbCustomer.FormattingEnabled = true;
-            this.cmbCustomer.Location = new System.Drawing.Point(196, 79);
+            this.cmbCustomer.Location = new System.Drawing.Point(186, 106);
             this.cmbCustomer.Name = "cmbCustomer";
             this.cmbCustomer.Size = new System.Drawing.Size(121, 23);
             this.cmbCustomer.TabIndex = 3;
             // 
             // txtOrderID
             // 
-            this.txtOrderID.Location = new System.Drawing.Point(196, 33);
+            this.txtOrderID.Location = new System.Drawing.Point(194, 47);
             this.txtOrderID.Name = "txtOrderID";
             this.txtOrderID.Size = new System.Drawing.Size(100, 25);
             this.txtOrderID.TabIndex = 2;
@@ -97,7 +96,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(60, 87);
+            this.label2.Location = new System.Drawing.Point(50, 114);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(37, 15);
             this.label2.TabIndex = 1;
@@ -106,7 +105,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(45, 36);
+            this.label1.Location = new System.Drawing.Point(43, 50);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(52, 15);
             this.label1.TabIndex = 0;
@@ -136,7 +135,7 @@
             // 
             this.btnAdd.Location = new System.Drawing.Point(9, 408);
             this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(75, 23);
+            this.btnAdd.Size = new System.Drawing.Size(93, 30);
             this.btnAdd.TabIndex = 1;
             this.btnAdd.Text = "添加明细";
             this.btnAdd.UseVisualStyleBackColor = true;
@@ -146,7 +145,7 @@
             // 
             this.btnModify.Location = new System.Drawing.Point(108, 408);
             this.btnModify.Name = "btnModify";
-            this.btnModify.Size = new System.Drawing.Size(75, 23);
+            this.btnModify.Size = new System.Drawing.Size(100, 30);
             this.btnModify.TabIndex = 2;
             this.btnModify.Text = "修改明细";
             this.btnModify.UseVisualStyleBackColor = true;
@@ -156,7 +155,7 @@
             // 
             this.btnDelete.Location = new System.Drawing.Point(214, 408);
             this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(75, 23);
+            this.btnDelete.Size = new System.Drawing.Size(102, 30);
             this.btnDelete.TabIndex = 3;
             this.btnDelete.Text = "删除明细";
             this.btnDelete.UseVisualStyleBackColor = true;
@@ -164,30 +163,14 @@
             // 
             // btnSave
             // 
-            this.btnSave.Location = new System.Drawing.Point(637, 415);
+            this.btnSave.Location = new System.Drawing.Point(621, 408);
             this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(75, 23);
+            this.btnSave.Size = new System.Drawing.Size(91, 30);
             this.btnSave.TabIndex = 4;
             this.btnSave.Text = "保存订单";
             this.btnSave.UseVisualStyleBackColor = true;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
-            // 
-            // goodsItemDataGridViewTextBoxColumn
-            // 
-            this.goodsItemDataGridViewTextBoxColumn.DataPropertyName = "GoodsItem";
-            this.goodsItemDataGridViewTextBoxColumn.HeaderText = "GoodsItem";
-            this.goodsItemDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.goodsItemDataGridViewTextBoxColumn.Name = "goodsItemDataGridViewTextBoxColumn";
-            this.goodsItemDataGridViewTextBoxColumn.Width = 125;
-            // 
-            // totalPriceDataGridViewTextBoxColumn
-            // 
-            this.totalPriceDataGridViewTextBoxColumn.DataPropertyName = "TotalPrice";
-            this.totalPriceDataGridViewTextBoxColumn.HeaderText = "TotalPrice";
-            this.totalPriceDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.totalPriceDataGridViewTextBoxColumn.Name = "totalPriceDataGridViewTextBoxColumn";
-            this.totalPriceDataGridViewTextBoxColumn.ReadOnly = true;
-            this.totalPriceDataGridViewTextBoxColumn.Width = 125;
+            
             // 
             // AddOrder
             // 

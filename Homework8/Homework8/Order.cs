@@ -10,7 +10,7 @@ namespace Homework8
 
   /**
    **/
-  public class Order:IComparable<Order>{
+  public class Order{
 
     private List<OrderDetail> details;
 
