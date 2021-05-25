@@ -73,7 +73,7 @@ namespace Homework8
             using (var db = new OrderContext())
             {
                 var query = db.Orders.Include(o => o.Details.Select(d => d.GoodsItem)).Include("Customer")
-            .Where(order => order.Details.Any(item => item.GoodsItem.Name == goodsName));
+                    .Where(o => o.Details.Any(m => m.GoodsItem.Name == goodsName));
                 return query.ToList();
             }
         }
@@ -89,9 +89,9 @@ namespace Homework8
         }
         public object QueryByTotalAmount(float amout)
         {
-            using (var ctx = new OrderContext())
+            using (var db = new OrderContext())
             {
-                return ctx.Orders.Include(o => o.Details.Select(d => d.GoodsItem)).Include("Customer")
+                return db.Orders.Include(o => o.Details.Select(d => d.GoodsItem)).Include("Customer")
                 .Where(order => order.Details.Sum(d => d.Quantity * d.GoodsItem.Price) > amout)
                 .ToList();
             }
