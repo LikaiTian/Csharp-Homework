@@ -12,36 +12,33 @@ namespace Homework8
     //private List<Order> orders;
 
 
-    public OrderService() {
-      //orders = new List<Order>();
-    }
-
-    /*public List<Order> Orders {
-      get => orders;
-    }*/
-
-    public IEnumerable<Order> QueryById(int Id) {
-
-      //return orders.Where(o => o.OrderId == Id).FirstOrDefault();
-      using(var db=new OrderContext())
+        public OrderService() { }
+        public List<Order> Orders
+        {
+            get
             {
-                return from o in db.Orders.Include(o => o.OrderId==Id)
-                       orderby o.TotalPrice
-                       select o;
-                //var order = db.Orders.Include("details").FirstOrDefault(p => p.OrderId == Id);
+                using (var db = new OrderContext())
+                {
+                    return db.Orders.Include(o => o.Details.Select(d => d.GoodsItem)).Include("Customer").
+                      ToList<Order>();
+                }
             }
-    }
+        }
 
-    public void AddOrder(Order order) {
+        public Order QueryById(int Id) {
 
-   
-      /*if (orders.Contains(order))
-        throw new ApplicationException($"订单{order.OrderId} 已经存在了!");
-      orders.Add(order);*/
-
-        using(var db=new OrderContext())
+            using(var db=new OrderContext())
             {
-                if (order == null && order.Details == null)
+                return db.Orders.Include(o => o.Details.Select(d => d.GoodsItem)).Include("Customer")
+                    .FirstOrDefault(o => o.OrderId == Id);
+            }
+        }
+        public void AddOrder(Order order) {
+
+            using (var db=new OrderContext())
+            {
+                
+                    if (order == null && order.Details == null)
                 {
                     throw new ApplicationException("参数不能为空!");
                 }
@@ -51,84 +48,72 @@ namespace Homework8
                 }
                 else
                 {
-                    order.CreateTime = DateTime.Now;
-                    db.Orders.Add(order);
-                    //db.Entry(order).State = EntityState.Added;
+                    db.Entry(order).State = EntityState.Added;
                     db.SaveChanges();
                 }
                 
             }
-    }
+        }
 
-    public void RemoveOrder(int orderId) {
+        public void RemoveOrder(int orderId) {
             using (var db = new OrderContext())
             {
-                var order = db.Orders.Include("details").FirstOrDefault(p => p.OrderId == orderId);
+                var order = db.Orders.Include("Details").SingleOrDefault(p => p.OrderId == orderId);
                 if (order != null) {
+                    db.OrderDetails.RemoveRange(order.Details);
                     db.Orders.Remove(order);
                     db.SaveChanges();
-                    //orders.Remove(order);
                 }
             }
                 
       
-    }
+        }
 
-    public List<Order> QueryByGoodsName(string goodsName) {
+        public List<Order> QueryByGoodsName(string goodsName) {
             using (var db = new OrderContext())
             {
-                var query = db.Orders.Include("details")
-                    .Where(order => order.Details.Exists(item => item.GoodsName == goodsName))
-                    .OrderBy(o => o.TotalPrice);
+                var query = db.Orders.Include(o => o.Details.Select(d => d.GoodsItem)).Include("Customer")
+            .Where(order => order.Details.Any(item => item.GoodsItem.Name == goodsName));
                 return query.ToList();
             }
-    }
+        }
 
-    public List<Order> QueryByCustomerName(string customerName) {
+        public List<Order> QueryByCustomerName(string customerName) {
             using (var db = new OrderContext())
             {
-                var query = db.Orders.Include("details")
-                    .Where(order => order.CustomerName == customerName)
-                    .OrderBy(o => o.TotalPrice);
-                return query.ToList();
+                return db.Orders.Include(o => o.Details.Select(d => d.GoodsItem)).Include("Customer")
+                    .Where(order => order.Customer.Name == customerName).ToList();
+                //.OrderBy(o => o.TotalPrice)
             }
 
-    }
-
-    public void UpdateOrder(Order order) {
-            using (var db = new OrderContext())
+        }
+        public object QueryByTotalAmount(float amout)
+        {
+            using (var ctx = new OrderContext())
             {
-                var oldOrder = db.Orders.Include("details").FirstOrDefault(p => p.OrderId == order.OrderId);
-                if (oldOrder == null)
-                    throw new ApplicationException($"修改错误：订单 {order.OrderId} 不存在!");
-                db.Orders.Remove(oldOrder);
-                order.CreateTime = DateTime.Now;
-                db.Orders.Add(order);
-                db.SaveChanges();
+                return ctx.Orders.Include(o => o.Details.Select(d => d.GoodsItem)).Include("Customer")
+                .Where(order => order.Details.Sum(d => d.Quantity * d.GoodsItem.Price) > amout)
+                .ToList();
             }
-                //Order oldOrder = QueryById(order.OrderId);
+        }
 
-     /* if(oldOrder==null)
-        throw new ApplicationException($"修改错误：订单 {order.OrderId} 不存在!");
-      orders.Remove(oldOrder);
-      orders.Add(order);*/
-    }
-    public void Export(String fileName) {
+        public void UpdateOrder(Order order) {
+            RemoveOrder(order.OrderId);
+            AddOrder(order);
+        }
+        public void Export(String fileName) {
             using (var db = new OrderContext())
             {
                 XmlSerializer xs = new XmlSerializer(typeof(List<Order>));
                 using (FileStream fs = new FileStream(fileName, FileMode.Create))
                 {
-                    xs.Serialize(fs, db.Orders);
+                    xs.Serialize(fs, Orders);
                 }
             }
-                /*XmlSerializer xs = new XmlSerializer(typeof(List<Order>));
-      using (FileStream fs = new FileStream(fileName, FileMode.Create)) {
-        xs.Serialize(fs, Orders);
-      }*/
-    }
+                
+        }
 
-    public void Import(string fileName) {
+        public void Import(string fileName) {
             using (var db = new OrderContext())
             {
                 XmlSerializer xs = new XmlSerializer(typeof(List<Order>));
@@ -136,37 +121,18 @@ namespace Homework8
                 {
                     List<Order> temp = (List<Order>)xs.Deserialize(fs);
                     temp.ForEach(order => {
-                        if (!db.Orders.Contains(order))
+                        if (db.Orders.SingleOrDefault(o => o.OrderId == order.OrderId) == null)
                         {
+                            //FixOrder(order);
                             db.Orders.Add(order);
                         }
                     });
                 }
                 db.SaveChanges();
             }
-                /*XmlSerializer xs = new XmlSerializer(typeof(List<Order>));
-      using (FileStream fs = new FileStream(fileName, FileMode.Open)) {
-        List<Order> temp = (List<Order>)xs.Deserialize(fs);
-        temp.ForEach(order => {
-          if (!orders.Contains(order)) {
-            orders.Add(order);
-          }
-        });
-      }*/
-    }
+                
+        }
 
-    public object QueryByTotalAmount(float amout) {
-            using (var db = new OrderContext())
-            {
-                return db.Orders
-                    .Where(order => order.TotalPrice == amout)
-                    .OrderByDescending(o => o.TotalPrice)
-                    .ToList();
-            }
-                /*return orders
-         .Where(order => order.TotalPrice == amout)
-         .OrderByDescending(o => o.TotalPrice)
-         .ToList();*/
-    }
+    
   }
 }

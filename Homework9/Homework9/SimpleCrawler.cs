@@ -81,7 +81,7 @@ namespace Homework9
                 string linkUrl = match.Groups["url"].Value;
                 if (linkUrl == null || linkUrl == "" || linkUrl.StartsWith("javascript:")) continue;
 
-                linkUrl = FixUrl(linkUrl, pageUrl);//转绝对路径
+                linkUrl = FullUrl(linkUrl, pageUrl);//转绝对路径
                                                    //解析出host和file两个部分，进行过滤
                 Match linkUrlMatch = Regex.Match(linkUrl, urlParseRegex);
                 string host = linkUrlMatch.Groups["host"].Value;
@@ -95,18 +95,8 @@ namespace Homework9
         }
 
         //将非完整路径转为完整路径
-        static private string FixUrl(string url, string pageUrl)
+        static private string FullUrl(string url, string pageUrl)
         {
-            if (url.Contains("://"))
-            { //完整路径
-                return url;
-            }
-            if (url.StartsWith("//"))
-            {
-                Match urlMatch = Regex.Match(pageUrl, urlParseRegex);
-                string protocal = urlMatch.Groups["protocal"].Value;
-                return protocal + ":" + url;
-            }
             if (url.StartsWith("/"))
             {
                 Match urlMatch = Regex.Match(pageUrl, urlParseRegex);
@@ -118,12 +108,12 @@ namespace Homework9
             {
                 url = url.Substring(3);
                 int idx = pageUrl.LastIndexOf('/');
-                return FixUrl(url, pageUrl.Substring(0, idx));
+                return FullUrl(url, pageUrl.Substring(0, idx));
             }
 
             if (url.StartsWith("./"))
             {
-                return FixUrl(url.Substring(2), pageUrl);
+                return FullUrl(url.Substring(2), pageUrl);
             }
             //非上述开头的相对路径
             int end = pageUrl.LastIndexOf("/");

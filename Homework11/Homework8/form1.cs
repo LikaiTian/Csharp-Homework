@@ -33,7 +33,7 @@ namespace Homework8
             //更新一下信息
             using(var db = new OrderContext())
             {
-                bindingSource1.DataSource = db.Orders.ToList();
+                bindingSource1.DataSource = orderService.Orders;
                 bindingSource1.ResetBindings(false);
             }
                 
@@ -99,7 +99,7 @@ namespace Homework8
                 case 0:
                     using (var db = new OrderContext())
                     {
-                        bindingSource1.DataSource = db.Orders;
+                        bindingSource1.DataSource = orderService.Orders;
                         //bindingSource1.ResetBindings(false);
                     }
                     break;

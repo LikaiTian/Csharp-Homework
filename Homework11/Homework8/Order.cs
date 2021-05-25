@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -15,7 +16,8 @@ namespace Homework8
 
     private List<OrderDetail> details;
         [System.ComponentModel.DataAnnotations.Schema.DatabaseGenerated(System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption.None)]
-        public int OrderId { get; set; }
+    [Key]   
+    public int OrderId { get; set; }
 
     public Customer Customer { get; set; }
 
